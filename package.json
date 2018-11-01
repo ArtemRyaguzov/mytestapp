@@ -4,7 +4,8 @@
   "description": "Test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -15,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ArtemRyaguzov/mytestapp/issues"
   },
-  "homepage": "https://github.com/ArtemRyaguzov/mytestapp#readme",
+  "homepage": "https://ArtemRyaguzov.github.io/mytestapp",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^4.0.1"
